@@ -1,0 +1,9 @@
+/* .landing-hero {
+  background-image: url('../assets/Image/Home_Landing_Image.png');
+  background-size: cover;
+  background-position: center;
+} */
+
+.overlay {
+  background-color: rgba(30, 58, 138, 0.8); /* Tailwind's bg-blue-900 @ 80% */
+}

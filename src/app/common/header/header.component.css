@@ -1,0 +1,8 @@
+/* .header{
+ background: #1A99CD;
+background: linear-gradient(302deg,rgba(26, 153, 205, 1) 73%, rgba(255, 255, 255, 1) 87%);
+} */
+ .header {
+      backdrop-filter: blur(16px);
+    background: #070328;
+} 

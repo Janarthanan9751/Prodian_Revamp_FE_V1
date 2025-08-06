@@ -1,0 +1,63 @@
+.landing-hero {
+  background-image: url('../../../assets/Image/Home_Landing_Image.png');
+  background-size: cover;
+  background-position: center;
+}
+  
+
+
+.overlay {
+  /* background-color: rgba(30, 58, 138, 0.8);  */
+  background-color: #2a3d74a8;
+} 
+/* .overlay {
+  background: linear-gradient(
+    302deg,
+    rgba(26, 153, 205, 1),
+    rgba(173, 216, 230, 1),
+    rgba(26, 153, 205, 1)
+  );
+  background-size: 400% 400%;
+  animation: headerGradient 10s ease infinite;
+} */
+
+@keyframes headerGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.tag-button {
+    /* facc15 */
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  /* border: 1px solid #facc15;  */
+  /* color: #facc15; */
+  padding: 0.25rem 1rem; /* py-1 px-4 */
+  border-radius: 9999px; /* fully rounded */
+  transition: background-color 0.2s ease;
+}
+
+.tag-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee-scroll 40s linear infinite;
+}
+
+
