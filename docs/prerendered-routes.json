@@ -1,0 +1,13 @@
+{
+  "routes": [
+    "/",
+    "/analytics",
+    "/caseStudy",
+    "/digitalTransformation",
+    "/home",
+    "/insights",
+    "/productEngineering",
+    "/whatWeDo",
+    "/whoWeAre"
+  ]
+}
